@@ -2,7 +2,7 @@
 
 namespace COMP003B.SP25.LectureActivity3.Models
 {
-    public class Products
+    public class Product
     {
         public int Id { get; set; }
 

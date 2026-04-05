@@ -16,7 +16,7 @@ namespace COMP003B.LectureActivity3.Controllers
 
         [HttpPost("create")]
 
-        public IActionResult Create([FromForm] ProductController product)
+        public IActionResult Create([FromForm] Product product)
         {
             if (!ModelState.IsValid)
             {
@@ -28,7 +28,7 @@ namespace COMP003B.LectureActivity3.Controllers
 
         [Route("success")]
 
-        public IActionResult Success(ProductController product)
+        public IActionResult Success(Product product)
         {
             return View(product);
         }
