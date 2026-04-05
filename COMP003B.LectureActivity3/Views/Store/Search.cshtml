@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Store = Search Product";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model string
+
+<h2>Search Results</h2>
+
+@if (!string.IsNullOrEmpty(Model))
+{
+    <p>Search Term: <strong>@Model</strong></p>
+}
+else
+{
+    <p>No search category provided.</p>
+}
