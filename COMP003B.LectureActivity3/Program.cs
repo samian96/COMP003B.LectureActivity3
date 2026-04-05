@@ -30,6 +30,11 @@ namespace COMP003B.LectureActivity3
 
             app.UseAuthorization();
 
+            // Conventional routing defaults to the Home controller and Index Action
+            app.MapControllerRoute(
+                name: "default",
+                pattern: "{controller=Home}/{action=Index}/{id?}");
+
             app.MapStaticAssets();
             app.MapControllerRoute(
                 name: "default",
