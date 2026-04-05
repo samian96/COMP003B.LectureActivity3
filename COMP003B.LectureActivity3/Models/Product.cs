@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace COMP003B.SP25.LectureActivity3.Models
+namespace COMP003B.LectureActivity3.Models
 {
     public class Product
     {

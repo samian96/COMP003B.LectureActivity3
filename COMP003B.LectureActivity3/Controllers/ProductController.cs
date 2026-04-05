@@ -1,4 +1,4 @@
-﻿using COMP003B.SP25.LectureActivity3.Models;
+﻿using COMP003B.LectureActivity3.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace COMP003B.LectureActivity3.Controllers
